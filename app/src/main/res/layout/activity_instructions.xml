@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".InstructionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"
+            android:scrollbars="vertical"
+            android:textSize="18sp"
+            android:text="1- open water taps only when you need water, and make sure you close them well when you no longer need water to decrease the money you’ll have to pay. \n\n
+2- it’s important to install water saving equipment.\n\n
+3- make sure you regularly fix water pipes and taps that leaks water.\n\n
+4- teach your children how to use water wisely.\n\n
+5- don’t leave faucets open when you do simple tasks like washing fruits or vegetables, or complicated tasks like washing cars."
+
+            />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
